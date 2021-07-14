@@ -126,7 +126,6 @@ header{
     width: 567px;
     height: 427px;
     margin-top: 164px;
-    margin-left: 69px;
     margin-right: 156px;
 }
 /* ----------
@@ -176,4 +175,18 @@ upcoming matches styling
 }
 .match-info h2{
     text-align: center;
+}
+/* sponsors section styling */
+.brands{
+	margin: 100px auto;
+
+}
+.brand-elements{
+	width: 160px;
+    margin: 50px;
+}
+.brand-elements img{
+	width: 100%;
+	cursor: pointer;
+	
 }
