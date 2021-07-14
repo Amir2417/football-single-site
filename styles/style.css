@@ -100,34 +100,7 @@ header{
     font-weight: 400;
 }
 
-/* highlights section styling */
-.heading-line{
-    width:466px ; 
-    Height :309px;
-    margin-top: 224px;
-    margin-left: 182px;
-    margin-right: 0px;
-}
-.heading-line h1{
-    width: 490px;
-    font-size: 48px;
-    line-height: 60px;
-    font-weight: bold;
-    color: #0A0826;
-    margin-bottom: 8px;
-    
-}
-.heading-line p{
-    font-size: 16px;
-    margin-top: 0px;
-    margin-bottom: 24px;
-}
-.highlight-img{
-    width: 567px;
-    height: 427px;
-    margin-top: 164px;
-    margin-right: 156px;
-}
+
 /* ----------
 upcoming matches styling
 --------- */
@@ -178,6 +151,11 @@ upcoming matches styling
     text-align: center;
 }
 /* sponsors section styling */
+.brand-items{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 30px;
+}
 .brands{
 	margin: 100px auto;
 
@@ -222,4 +200,56 @@ upcoming matches styling
     height: auto;
     margin: 0px 14px;
 }
+
+/* media query */
+
+/* for mobile device */
+@media only screen and (max-width:688px) {
+    body,html{
+        overflow-x: hidden;
+    }
+    .container{    
+        padding: 05%;
+        width: 100%;
+    }
+    .flexible-area{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 29px;
+    }
+    .feature-img,.highlight-img{
+        width: 325px;
+        height: 255px;
+    }
+    .intro{
+        width: 270px;
+        height: 130px;
+    }
+    .intro h1,{
+        font-size: 30px;
+        line-height: 50px;
+        height: 138px;
+    }
+   
+    .container, .players, .flexible-area,.flag,.brand-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  .flag, .flexible-area{
+        flex-direction: column;
+    }
+
+    .player{
+        padding: 10px;
+    }
+    
+    .logo img{
+        width: 250.87px;
+        height: 55px;
+    }
+    .footer-element{
+        margin-top: 700px;
+    }
+}
+
+
 
