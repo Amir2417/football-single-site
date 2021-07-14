@@ -47,7 +47,7 @@ header{
     height: 44px;
     text-decoration: none;
     padding: 10px 24px;
-    background-color: #E02C6D;
+    background-color: #E02C6D;;
     color: white;
     font-style: normal;
     line-height: 24px;
@@ -69,7 +69,6 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 70px;
-    margin-bottom: 80px;
 }
 .players{
     display: grid;
@@ -99,4 +98,34 @@ header{
 .player-info p{
     font-size: 12px;
     font-weight: 400;
+}
+
+/* highlights section styling */
+.heading-line{
+    width:466px ; 
+    Height :309px;
+    margin-top: 224px;
+    margin-left: 182px;
+    margin-right: 0px;
+}
+.heading-line h1{
+    width: 490px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #0A0826;
+    margin-bottom: 8px;
+    
+}
+.heading-line p{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.highlight-img{
+    width: 567px;
+    height: 427px;
+    margin-top: 164px;
+    margin-left: 69px;
+    margin-right: 156px;
 }
